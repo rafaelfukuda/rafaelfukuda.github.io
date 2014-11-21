@@ -1,41 +1,35 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Rafael Fukuda
+email: rafael.fukuda@gmail.com
+description: "Rafael Fukuda é empreendedor e desenvolvedor full stack. Cria aplicativos para plataformas mobile (Android/iOS/Windows Phone) e web."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-  
+  primary: 006DD9 #80B3FF
+  secondary: 444444 #FD6E8A
+  secondary-dark: 111111 #A2122F
+
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: RF
+  location: Localização
+  social: Social
+  credits: Skype
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: http://br.linkedin.com/in/rafaelfukuda/pt
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/rafaelfukuda
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-  
+  - line: São Paulo - SP
+  - line: <i class="fa fa-map-marker"></i> Brasil
+
 # Credits content
-credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '<i class="fa fa-skype"></i> rafael.fukuda'
 
 # Build settings
 markdown: kramdown
