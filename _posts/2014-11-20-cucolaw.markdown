@@ -1,0 +1,14 @@
+---
+layout: default
+date: 2009-01-01
+img: cucolaw.jpg
+alt: Cuco Law
+client: Cuco Law
+category: Web
+techs: [ ASP.NET MVC, jQuery, Twitter API, Windows Azure ]
+video: E1FLyIdmDOI
+
+---
+
+Minha primeira startup. Uma rede social focada em compartilhamento de conteúdo jurídico que reconhecia os usuários pela qualidade do que era compartilhado. 
+Desenvolvi a plataforma que era integrada ao Twitter.

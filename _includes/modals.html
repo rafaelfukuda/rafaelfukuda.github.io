@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -14,8 +14,27 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
+
+                            {% if post.video == null %}
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            {% else %}
+                            <div class="responsive-video">
+                                <iframe src="//www.youtube.com/embed/{{ post.video }}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            {% endif %}
+
+                            <p>{{ post.content }}</p>
+
+                            {% if post.links.size > 0 %}
+                            <ul class="list-inline item-details">
+                                {% for link in post.links %}
+                                <li>
+                                    <i class="fa fa-external-link"></i> <a href="{{ link.url }}" target="_blank"> {{ link.name }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+
                             <ul class="list-inline item-details">
                                 <li>Cliente:
                                     <strong class="text-success">{{ post.client }}</strong>
