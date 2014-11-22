@@ -10,4 +10,4 @@ links:
  - { name: Konbini - Produtos Orientais, url: "http://www.konbini.com.br" }
 ---
 
-Minha segunda startup. E-commerce de produtos orientais, entrega em todo o Brasil.
+Minha segunda startup foi a Konbini uma loja online de produtos orientais. Confira:
