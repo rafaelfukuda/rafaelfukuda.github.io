@@ -6,7 +6,6 @@ alt: Arthome
 client: Arthome
 category: Web
 techs: [ Angularjs, Bootstrap, ASP.NET MVC ]
-
 ---
 
 Sistema web onde representantes emitem pedidos. Integrado com o ERP. Similar a um e-commerce com um catálogo estilo Pinterest.
