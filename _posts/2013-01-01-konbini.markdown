@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 date: 2011-01-01
 img: konbini.jpg
 alt: Konbini - Produtos orientais

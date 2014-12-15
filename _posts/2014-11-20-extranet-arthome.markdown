@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 date: 2014-01-01
 img: arthome.jpg
 alt: Arthome
