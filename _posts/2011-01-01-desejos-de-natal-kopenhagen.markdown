@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 date: 2011-01-01
 img: natalkop.jpg
 alt: Desejos de Natal

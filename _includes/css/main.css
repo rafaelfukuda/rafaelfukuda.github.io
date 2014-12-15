@@ -396,15 +396,22 @@ footer .footer-below {
     box-shadow: none;
 }
 
+.portfolio-page {
+    text-align: center;
+}
+
+.portfolio-page h2,
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
+.portfolio-page img,
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
 
+.portfolio-page .item-details,
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 date: 2013-01-01
 img: socialpes.jpg
 alt: Social PES

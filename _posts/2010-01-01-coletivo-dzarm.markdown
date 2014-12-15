@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 date: 2010-01-01
 img: coletivodzarm.jpg
 alt: Coletivo Dzarm

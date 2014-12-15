@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include project_header.html %}
+
+    <div id="projeto" class="container portfolio-page">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>{{ page.title }}</h2>
+            <hr class="star-primary">
+
+            {% if page.video == null %}
+            <img src="{{ site.url }}/{{ site.baseurl }}/img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+            {% else %}
+            <div class="responsive-video">
+                <iframe src="//www.youtube.com/embed/{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+            {% endif %}
+
+            <p>{{ page.content }}</p>
+
+            {% if page.links.size > 0 %}
+            <ul class="list-inline item-details">
+                {% for link in page.links %}
+                <li>
+                    <i class="fa fa-external-link"></i> <a href="{{ link.url }}" target="_blank"> {{ link.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <ul class="list-inline item-details">
+                <li>Cliente:
+                    <strong class="text-success">{{ page.client }}</strong>
+                </li>
+                <li>Plataforma:
+                    <strong><a href="http://startbootstrap.com">{{ page.category }}</a>
+                    </strong>
+                </li>
+                <li>Feito com:
+                    {% for tech in page.techs %}
+                    <span class="label label-info">{{ tech }}</span>
+                    {% endfor %}                                    
+                </li>
+            </ul>
+        </div>    
+        
+    </div>
+
+    {% include about.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+
+    {% include js.html %}
+
+    </body>
+</html>
