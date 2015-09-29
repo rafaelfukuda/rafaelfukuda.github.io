@@ -30,6 +30,10 @@ li.skill {
   margin: 0.5em;
 }
 
+#portfolio .portfolio-item .portfolio-link .caption {
+  background-color: rgba(0, 109, 217, 0.8);
+}
+
 @media(min-width:768px) {
     .navbar-fixed-top.navbar-shrink {
         padding: 0 0;
