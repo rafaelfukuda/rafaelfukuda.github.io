@@ -1,0 +1,13 @@
+---
+layout: project
+date: 2015-01-21
+img: rocketinternet.jpg
+alt: Rocket Internet
+client: Rocket Internet
+category: Mobile Developer
+techs: [ Xamarin, C#, iOS Development, Android Development ]
+links:
+ - { name: About, url: "https://www.rocket-internet.com/about" }
+---
+
+I made Mobile Apps for new ventures using Xamarin.

@@ -10,5 +10,4 @@ video: E1FLyIdmDOI
 
 ---
 
-Minha primeira startup. Uma rede social focada em compartilhamento de conteúdo jurídico que reconhecia os usuários pela qualidade do que era compartilhado. 
-Desenvolvi a plataforma que era integrada ao Twitter.
+My first startup was a social network for lawyers.

@@ -1,5 +1,5 @@
 hr.star-primary:after {
-    content: "\f121"; 
+    content: "\f121";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -22,6 +22,12 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+}
+
+li.skill {
+  font-size: 1.2em;
+  padding: 0.8em;
+  margin: 0.5em;
 }
 
 @media(min-width:768px) {

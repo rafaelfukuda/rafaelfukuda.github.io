@@ -1,6 +1,7 @@
 # Site settings
-title: Rafael Fukuda
-description: "Rafael Fukuda é empreendedor e desenvolvedor full stack. Cria aplicativos de ponta a ponta para plataformas mobile e web."
+title: Rafael Fukuda - Mobile Developer
+description: "Rafael Fukuda is an experienced mobile developer. He creates amazing Xamarin, iOS, Android and Web applications."
+about: I am an experienced developer, currently working as a Mobile Developer for an European Startup. I create native iOS, Android and Windows Phone Applications, Web Applications and backend software.
 
 baseurl: ""
 url: http://www.rafaelfukuda.com
@@ -13,7 +14,7 @@ color:
 # Footer settings
 footer:
   copyright: RF
-  location: Localização
+  location: Location
   social: Social
   credits: Skype
 
@@ -24,10 +25,12 @@ social:
   - title: github
     url: http://github.com/rafaelfukuda
 
+skills: [ Xamarin, C#, iOS Development, Android Development, MVVM, .NET, Windows Azure, Facebook SDK, angularjs ]
+
 # Postal address (add as many lines as necessary)
 address:
-  - line: São Paulo - SP
-  - line: <i class="fa fa-map-marker"></i> Brasil
+  - line: Berlin
+  - line: <i class="fa fa-map-marker"></i> Germany
 
 # Credits content
 credits: '<i class="fa fa-skype"></i> rafael.fukuda'
