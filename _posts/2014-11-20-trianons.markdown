@@ -1,7 +1,7 @@
 ---
 layout: project
 date: 2013-01-01
-img: socialpes.jpg
+img: trianons.jpg
 alt: Trianons
 client: Trianons
 category: Facebook
@@ -11,4 +11,4 @@ links:
  - { name: Análise do Baixaki, url: "http://www.baixaki.com.br/download/social-pes-2014.htm" }
 ---
 
-We made lots of Facebook Apps.
+We have made lots of Facebook Apps.
