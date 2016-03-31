@@ -1,7 +1,7 @@
 # Site settings
 title: Rafael Fukuda - Mobile Developer
 description: "Rafael Fukuda is an experienced mobile developer. He creates amazing Xamarin, iOS, Android and Web applications."
-about: I am an experienced developer, currently working as a Mobile Developer for an Europe based Startup. I create iOS, Android and Windows Phone Applications, Web Applications and backend software.
+about: I'm a brazilian mobile developer living in Berlin, Germany. I create iOS, Android and Windows Phone Apps using Xamarin.
 
 baseurl: ""
 url: http://www.rafaelfukuda.com
@@ -21,11 +21,11 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url: http://br.linkedin.com/in/rafaelfukuda/pt
+    url: https://de.linkedin.com/in/rafaelfukuda
   - title: github
     url: http://github.com/rafaelfukuda
 
-skills: [ Xamarin, C#, iOS Development, Android Development, MVVM, .NET, Windows Azure, Facebook SDK, angularjs ]
+skills: [ Xamarin, C#, iOS Development, Android Development, .NET, Windows Azure ]
 
 # Postal address (add as many lines as necessary)
 address:

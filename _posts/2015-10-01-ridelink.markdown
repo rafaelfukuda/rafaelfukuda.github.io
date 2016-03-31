@@ -1,0 +1,14 @@
+---
+layout: project
+date: 2015-10-01
+img: ridelink.jpg
+alt: RideLink
+client: RideLink
+category: Mobile Developer
+techs: [ Xamarin, C#, iOS Development, Android Development ]
+links:
+ - { name: About, url: "https://www.ridelink.com" }
+---
+
+RideLink (previously DriveJoy) is an online community where car owners can safely rent their cars directly to drivers, making money in the process. For car owners, this is a great way to let your car make extra cash when you're not using it, all while reducing the number of cars on the road and helping others.
+For renters, RideLink offers a wider selection of awesome cars than you would find at a traditional car rental agency, at a fraction of the cost. Best of all, you always know the exact car you'll be getting; no last minute surprises at the rental counter.
