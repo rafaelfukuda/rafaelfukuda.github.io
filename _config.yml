@@ -1,7 +1,6 @@
 # Site settings
 title: Rafael Fukuda - Mobile Developer
-description: "Rafael Fukuda is an experienced mobile developer. He creates amazing Xamarin, iOS, Android and Web applications."
-about: I'm a Brazilian mobile developer working for a mobility startup in Berlin. My job is to solve business challenges by creating mobile, web and backend software.
+description: "Rafael Fukuda creates Xamarin, iOS, Android applications using Xamarin from Microsoft"
 
 baseurl: ""
 url: http://www.rafaelfukuda.com
@@ -10,12 +9,6 @@ color:
   primary: 006DD9 #80B3FF
   secondary: 444444 #FD6E8A
   secondary-dark: 111111 #A2122F
-
-# Footer settings
-footer:
-  location: Location
-  social: Social
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -26,12 +19,7 @@ social:
   - title: angellist
     url: https://angel.co/rafaelfukuda
 
-skills: [ Xamarin, iOS Development, Android Development, Native Mobile Development, MVVM, Reactive Programming ]
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Berlin
-  - line: <i class="fa fa-map-marker"></i> Germany
+skills: [ C#, .NET, Xamarin, iOS Development, Android Development ]
 
 # Credits content
 credits: ''
