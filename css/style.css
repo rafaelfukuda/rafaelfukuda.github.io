@@ -1,0 +1,51 @@
+/*
+blue  #1C9EF0
+green #28E365
+pink  #E3278C
+*/
+
+/* Style */
+
+a {
+	color: #1C9EF0;
+	text-decoration: none;
+}
+
+.primary {
+	color: #1C9EF0;	
+}
+
+.secondary {
+	color: #E3278C;	
+}
+
+.alternate {
+	color: #28E365;
+}
+
+h1{
+	margin: 3em 0 0;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 4em;
+	margin: 3em 0;
+}
+
+ul.social {
+	list-style-type: none;
+}
+
+li {
+	font-size: 1.2em;
+}
+
+.list {
+	text-align: right;
+}
