@@ -6,46 +6,60 @@ pink  #E3278C
 
 /* Style */
 
+* {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+html {
+	background-color: #061D2C;
+	background-image: url("../bg.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;	
+	height: 100vh;
+
+}
+
+.title {
+	color: #EAF6FD;
+}
+
+.subtitle {
+	color: #EAF6FD;
+}
+
 a {
 	color: #1C9EF0;
 	text-decoration: none;
+}
+
+a:hover {
+	color: #EAF6FD !important;
 }
 
 .primary {
 	color: #1C9EF0;	
 }
 
-.secondary {
-	color: #E3278C;	
+.profile {
+	overflow: hidden;
+	width: 160px;
+	border-radius: 50%;
+	border: solid 4px #1C9EF0;
+	margin: 0 auto 1rem;
 }
 
-.alternate {
-	color: #28E365;
+.header {
+	padding: 5rem 0 0 0;
 }
 
-h1{
-	margin: 3em 0 0;
-	font-size: 2em;
-	font-weight: 300;
+.hero {
+	margin: 2rem 0;
+	padding: 1rem 0;
+	background-color: rgba(0, 0, 0, 0.7)	
 }
 
-h2 {
-	font-size: 1.5em;
-}
-
-h3 {
-	font-size: 4em;
-	margin: 3em 0;
-}
-
-ul.social {
-	list-style-type: none;
-}
-
-li {
-	font-size: 1.2em;
-}
-
-.list {
-	text-align: right;
+.holly {
+	overflow: hidden;
+	border-radius: 12px;
 }
