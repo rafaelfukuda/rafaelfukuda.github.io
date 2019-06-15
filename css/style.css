@@ -56,7 +56,8 @@ a:hover {
 .hero {
 	margin: 2rem 0;
 	padding: 1rem 0;
-	background-color: rgba(0, 0, 0, 0.7)	
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
 }
 
 .holly {
