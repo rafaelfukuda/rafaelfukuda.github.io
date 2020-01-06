@@ -4,14 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="description"
-        content="Rafael Fukuda is a Software Developer specialized in Mobile applications for Android and iOS">
-    <meta name="keywords" content="Mobile,Android,iOS,Software,Developer">
+        content="Rafael Fukuda is a Full Stack Engineer building tools for Live Streamers.">
     <meta name="author" content="Rafael Fukuda">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rafael Fukuda - Software Developer - Android Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" rel="stylesheet">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://rafaelfukuda.com">
+    
+    <meta property="og:title" content="Título da página ou artigo">
+    <meta property="og:site_name" content="Nome do meu site">
+    
+    <meta property="og:description" content="Minha boa descrição para intrigar os usuários.">
+    
+    <meta property="og:image" content="profile-social.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300"> 
+    <meta property="og:image:height" content="300">
+
+    <title>Rafael Fukuda - Full Stack Engineer</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
     <link href="css/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="favicon.png">
     <script>
@@ -27,41 +38,34 @@
 </head>
 
 <body>
-    <section class="main">
-        <div class="header columns is-centered is-vcentered">
-            <div class="column is-narrow has-text-centered">
-                <figure class="image profile">
-                    <img src="profile-social.jpg" alt="fukuda" />
-                </figure>
-                <h1 class="title primary">Rafael Fukuda</h1>
-                <h2 class="subtitle">Community Leader, Software Engineer</h2>
+    <main class="main">
+        <div class="background"></div>
+        <section class="profile">
+            <div class="image">
+                <img src="profile-social.jpg" alt="fukuda" />
             </div>
-        </div>
-        <div class="hero columns is-vcentered">
-            <div class="column is-5">
-                <h3 class="title is-2">I <span class="primary">build</span> digital products for <span
-                        class="primary">Brazilian live streamers</span>
-                    and their <span class="primary">communities</span> 🍙</h3>
-            </div>
-        </div>
-        <div class="hero columns is-vcentered">
-            <div class="column is-5 is-12-mobile">
-                <div class="level is-mobile">               
-                    <a href="https://twitter.com/rafaelfukuda" target="_blank">
-                        <i class="fab fa-twitter primary fa-3x"></i>
-                    </a>       
-                    <a href="https://streamholics.live" target="_blank">
-                        <figure class="image is-64x64 holly">
-                            <img src="holly.jpg" alt="streamholics">
-                        </figure>
-                    </a>                                             
-                    <a href="https://www.linkedin.com/in/rafaelfukuda/" target="_blank">
-                        <i class="fab fa-linkedin primary fa-3x"></i>
-                    </a>                         
+
+            <div class="info">
+                <h1>Rafael Fukuda</h1>
+                <div class="occupation">
+                    <span>Community Leader</span>
+                    <span class="icon"><i class="fa fa-code"></i></span>
+                    <span>Full Stack Engineer</span>
                 </div>
-            </div>
-        </div>
-    </section>
+
+                <div class="social">
+                    <a class="icon" href="https://www.linkedin.com/in/rafaelfukuda"><span><i class="fab fa-linkedin fa-fw"></i></span></a>
+                    <!-- <a class="icon"><span><i class="fab fa-angellist fa-fw"></i></span></a> -->
+                </div>
+
+                <a class="holly" href="https://streamholics.live">
+                    <svg width="140" height="140" class="holly bounce">
+                        <image width="140" height="140" xlink:href="holly.svg"/>
+                    </svg>
+                </a>
+            </div>        
+        </section>
+    </main>
 </body>
 
 </html>
